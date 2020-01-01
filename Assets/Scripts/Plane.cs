@@ -7,19 +7,19 @@ public class Plane : MonoBehaviour
     private const float MOVE_AMOUNT = 25f;
     private Rigidbody2D planeBody;
     private SpriteRenderer planeSprite;
-    public Sprite leftPlane;
-    public Sprite rightPlane;
+    private Transform planeTransform;
     private bool goingLeft = false;
     private bool planeMoved = false;
     
     // Start is called before the first frame update
     void Start(){
-
+        planeTransform = GetComponent<Transform>();
     }
 
     private void Awake(){
         planeBody = GetComponent<Rigidbody2D>();
         planeSprite = GetComponent<SpriteRenderer>();
+        
     }
 
     // Update is called once per frame
@@ -48,14 +48,14 @@ public class Plane : MonoBehaviour
         //planeBody.velocity = new Vector2(15f, 0);
         //yield return new WaitForSeconds(1);
         planeBody.velocity = new Vector2(-1 * MOVE_AMOUNT, 0);
-        planeSprite.sprite = leftPlane;
+        planeTransform.localScale = new Vector3(8, 8, 8);
     }
 
     private void MoveRight(){
         //planeBody.velocity = new Vector2(-15f, 0);
         //yield return new WaitForSeconds(1);
         planeBody.velocity = new Vector2(MOVE_AMOUNT, 0);
-        planeSprite.sprite = rightPlane;
+        planeTransform.localScale = new Vector3(-8, 8, 8);
     }
 
     private void StartMovement(){
