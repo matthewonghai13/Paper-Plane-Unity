@@ -20,7 +20,7 @@ public class Level : MonoBehaviour
     private const float GAP_WIDTH_MEDIUM = 20f;
     private const float GAP_WIDTH_HARD = 18f;
     private const float GAP_LEFT_LIMIT = -35f;
-    private const float GAP_RIGHT_LIMIT = 25f;
+    private const float GAP_RIGHT_LIMIT = 15f;
     private const float FLOOR_DESTROY_YPOS = 65f;
     private const float FLOOR_SPAWN_YPOS = -65f;
     private const float WALL_DESTROY_YPOS = 65f;
