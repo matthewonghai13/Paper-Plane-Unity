@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f81b6c4dee77d40ef83e3d74e5fe0d4e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - brickSprite: {fileID: 21300000, guid: b82293569ede64bd2813f3d107e85b58, type: 3}
+  - pfBrick: {fileID: 1015971812983761530, guid: 7926966232b6842cf9e29bdefb7aa365,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
