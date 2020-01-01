@@ -12,6 +12,8 @@ public class Level : MonoBehaviour
     private float floorSpawnTimerMax;
     private float wallSpawnTimer;
     private float wallSpawnTimerMax;
+    private int floorsSpawned;
+    private int floorsPassed;
 
     private const float FLOOR_MOVE_SPEED = 8f;
     private const float GAP_WIDTH_EASY = 25f;
@@ -23,16 +25,11 @@ public class Level : MonoBehaviour
     private const float FLOOR_SPAWN_YPOS = -65f;
     private const float WALL_DESTROY_YPOS = 65f;
     private const float WALL_SPAWN_YPOS = -65f;
+    private const float PLANE_YPOS = 0f;
     private static Level instance;
 
     public static Level GetInstance(){
         return instance;
-    }
-
-    private void Awake(){
-        floorList = new List<Transform>();
-        floorSpawnTimerMax = 3f;
-        wallSpawnTimerMax = 3f;
     }
 
     // Start is called before the first frame update
@@ -40,6 +37,14 @@ public class Level : MonoBehaviour
         instance = this;
         lost = false;
     }
+
+    private void Awake(){
+        floorList = new List<Transform>();
+        floorSpawnTimerMax = 3f;
+        wallSpawnTimerMax = 3f;
+        floorsSpawned = 0;
+    }
+
 
     // Update is called once per frame
     void Update(){
@@ -52,6 +57,14 @@ public class Level : MonoBehaviour
             // lose condition
         }
         
+    }
+
+    public int getFloorsSpawned(){
+        return floorsSpawned;
+    }
+
+    public int getFloorsPassed(){
+        return floorsPassed;
     }
 
     private void HandleWallSpawning(){
@@ -86,17 +99,28 @@ public class Level : MonoBehaviour
     }
 
     private void HandleFloorMovement(){
+        bool passedFloor = false;
         for(int i = 0; i < floorList.Count; i++){
             Transform brickTransform = floorList[i];
+
+            // check if passed (for scoring)
+            bool isBelowPlane = brickTransform.position.y < PLANE_YPOS;
+
+            // move the floor
             brickTransform.position += new Vector3(0, 1, 0) * FLOOR_MOVE_SPEED * Time.deltaTime;
 
+            //final check
+            if (isBelowPlane && brickTransform.position.y >= PLANE_YPOS) passedFloor = true;
+
             // clean up
-            if(brickTransform.position.y > WALL_DESTROY_YPOS){
+            if (brickTransform.position.y > WALL_DESTROY_YPOS){
                 Destroy(brickTransform.gameObject);
                 floorList.Remove(brickTransform);
                 i--;
             }
         }
+
+        if (passedFloor) floorsPassed++;
     }
 
     private void CreateFloor(float gapWidth, float GapLeftPos) {
@@ -106,6 +130,7 @@ public class Level : MonoBehaviour
                 CreateBrick(i, FLOOR_SPAWN_YPOS);
             }
         }
+        floorsSpawned++;
     }
 
     private void CreateBrick(float xPos, float yPos){
