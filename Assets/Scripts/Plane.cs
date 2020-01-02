@@ -58,10 +58,13 @@ public class Plane : MonoBehaviour
         planeTransform.localScale = new Vector3(-8, 8, 8);
     }
 
+    // called when first tap is registered
     private void StartMovement(){
+        Level.GetInstance().StartLevel();
         planeBody.velocity = new Vector2(-1 * MOVE_AMOUNT, 0);
     }
 
+    // game over trigger
     private void OnTriggerEnter2D(Collider2D collision){
         planeBody.velocity = new Vector2(0f, 0f);
         planeBody.gravityScale = 5f;
@@ -70,3 +73,8 @@ public class Plane : MonoBehaviour
     }
 
 }
+
+
+
+// to reload game scene
+// UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
