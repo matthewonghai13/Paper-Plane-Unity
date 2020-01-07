@@ -20,7 +20,7 @@ public class Level : MonoBehaviour {
     private const float GAP_RIGHT_LIMIT = 15f;
     private const float FLOOR_DESTROY_YPOS = 65f;
     private const float FLOOR_SPAWN_YPOS = -75f;
-    private const float WALL_DESTROY_YPOS = 75f;
+    private const float WALL_DESTROY_YPOS = 85f; 
     private const float WALL_SPAWN_YPOS = -89.5f;
     private const float PLANE_YPOS = 0f;
     private static Level instance;
@@ -81,7 +81,7 @@ public class Level : MonoBehaviour {
             wallTransform.position += new Vector3(0, 1, 0) * FLOOR_MOVE_SPEED * Time.deltaTime;
 
             // clean up
-            if (wallTransform.position.y > FLOOR_DESTROY_YPOS){
+            if (wallTransform.position.y > WALL_DESTROY_YPOS){
                 Destroy(wallTransform.gameObject);
                 wallList.Remove(wallTransform);
                 i--;
@@ -113,7 +113,7 @@ public class Level : MonoBehaviour {
             if (isBelowPlane && brickTransform.position.y >= PLANE_YPOS) passedFloor = true;
 
             // clean up
-            if (brickTransform.position.y > WALL_DESTROY_YPOS){
+            if (brickTransform.position.y > FLOOR_DESTROY_YPOS){
                 Destroy(brickTransform.gameObject);
                 floorList.Remove(brickTransform);
                 i--;
