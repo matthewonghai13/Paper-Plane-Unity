@@ -16,6 +16,7 @@ public class GameAssets : MonoBehaviour
     }
 
     public Sprite brickSprite;
-    public Transform pfBrick;
-    public Transform pfbgBrick;
+    public Transform pfBrick;           // brick segment to construct floor
+    public Transform pfbgBrick;         // background brick wall segments
+    public Transform whiteCloud1;       // bg overlay cloud (top level), variant 1
 }

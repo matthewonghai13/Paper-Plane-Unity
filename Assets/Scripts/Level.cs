@@ -5,23 +5,34 @@ using UnityEngine;
 public class Level : MonoBehaviour {
     public List<Transform> floorList;
     public List<Transform> wallList;
+    public List<Transform> cloudList;
     private float floorSpawnTimer;
     private float floorSpawnTimerMax;
     private float wallSpawnTimer;
     private float wallSpawnTimerMax;
+    private float cloudSpawnTimer;
+    private float cloudSpawnTimerMax;
     private int floorsSpawned;
     private int floorsPassed;
 
     private const float FLOOR_MOVE_SPEED = 8f;
+    private const float CLOUD_MOVE_SPEED = 3f;
     private const float GAP_WIDTH_EASY = 25f;
     private const float GAP_WIDTH_MEDIUM = 20f;
     private const float GAP_WIDTH_HARD = 18f;
     private const float GAP_LEFT_LIMIT = -35f;
     private const float GAP_RIGHT_LIMIT = 15f;
-    private const float FLOOR_DESTROY_YPOS = 65f;
+
     private const float FLOOR_SPAWN_YPOS = -75f;
-    private const float WALL_DESTROY_YPOS = 85f; 
+    private const float FLOOR_DESTROY_YPOS = 65f;
+    
+
     private const float WALL_SPAWN_YPOS = -89.5f;
+    private const float WALL_DESTROY_YPOS = 85f; 
+   
+    private const float CLOUD_SPAWN_XPOS = 100f;
+    private const float CLOUD_DESTROY_XPOS = -100f;
+
     private const float PLANE_YPOS = 0f;
     private static Level instance;
     private State state;
@@ -38,20 +49,26 @@ public class Level : MonoBehaviour {
 
     private void Awake() {
         floorList = new List<Transform>();
+        //wallList = new List<Transform>();
+        //cloudList = new List<Transform>();          // ??
         floorSpawnTimerMax = 3f;
         wallSpawnTimerMax = 3f;
+        cloudSpawnTimerMax = 25f;
         floorsSpawned = 0;
         state = State.WaitingToStart;
     }
 
     // Start is called before the first frame update
-    private void Start(){
+    private void Start() {
         instance = this;
     }
 
     // Update is called once per frame
     void Update() {
-        if(state == State.Playing) {
+        HandleCloudMovement();
+        HandleCloudSpawning();
+
+        if (state == State.Playing) {
             HandleFloorMovement();
             HandleFloorSpawning();
             HandleWallMovement();
@@ -66,6 +83,45 @@ public class Level : MonoBehaviour {
     public int getFloorsPassed() {
         return floorsPassed;
     }
+
+
+    // !!!!!!!!!!!! CLOUDS
+
+    private void HandleCloudSpawning() {
+        cloudSpawnTimer -= Time.deltaTime;
+        if (cloudSpawnTimer < 0) {
+            cloudSpawnTimer += cloudSpawnTimerMax;
+            CreateCloud(0);
+            CreateCloud(50);
+            CreateCloud(-50);
+        }
+    }
+
+    private void HandleCloudMovement() {
+        for (int i = 0; i < cloudList.Count; i++) {
+            Transform cloudTransform = cloudList[i];
+            if (state == State.Playing) {
+                cloudTransform.position += new Vector3(-1, 0.8f, 0) * CLOUD_MOVE_SPEED * Time.deltaTime;
+            } else {
+                cloudTransform.position += new Vector3(-1, 0, 0) * CLOUD_MOVE_SPEED * Time.deltaTime;
+            }
+
+            // clean up
+            if (cloudTransform.position.x < CLOUD_DESTROY_XPOS) {
+                Destroy(cloudTransform.gameObject);
+                cloudList.Remove(cloudTransform);
+                i--;
+            }
+        }
+    }
+
+    private void CreateCloud(float ypos) {
+        Transform cloud = Instantiate(GameAssets.GetInstance().whiteCloud1);
+        cloud.position = new Vector3(CLOUD_SPAWN_XPOS, ypos);
+        cloudList.Add(cloud);
+    }
+
+    // !!!!!!!!!!!! WALLS
 
     private void HandleWallSpawning() {
         wallSpawnTimer -= Time.deltaTime;
@@ -88,6 +144,18 @@ public class Level : MonoBehaviour {
             }
         }
     }
+
+    private void CreateWall() {
+        Transform wall = Instantiate(GameAssets.GetInstance().pfbgBrick);
+        if(floorsSpawned % 2 == 0) {
+            wall.localScale = new Vector3(-15, 15, 0);
+        }
+        wall.position = new Vector3(0, WALL_SPAWN_YPOS);
+        wallList.Add(wall);
+    }
+
+    // !!!!!!!!!!!!
+    // !!!!!!!!!!!! FLOORS
 
     private void HandleFloorSpawning() { 
         floorSpawnTimer -= Time.deltaTime;
@@ -139,12 +207,8 @@ public class Level : MonoBehaviour {
         floorList.Add(brick);
     }
 
-    private void CreateWall() {
-        Transform wall = Instantiate(GameAssets.GetInstance().pfbgBrick);
-        wall.position = new Vector3(0, WALL_SPAWN_YPOS);
-        wallList.Add(wall);
-    }
 
+    // !!!!!!!!!!!!
 
     public void StartLevel() {
         state = State.Playing;
