@@ -24,7 +24,7 @@ public class Level : MonoBehaviour {
     private const float GAP_RIGHT_LIMIT = 15f;
 
     private const float FLOOR_SPAWN_YPOS = -75f;
-    private const float FLOOR_DESTROY_YPOS = 65f;
+    private const float FLOOR_DESTROY_YPOS = 75f;
     
 
     private const float WALL_SPAWN_YPOS = -89.5f;
