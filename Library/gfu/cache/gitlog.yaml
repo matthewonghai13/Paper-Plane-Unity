@@ -13,9 +13,249 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-01-11T16:48:59.051-06:00
+  lastUpdatedAtString: 2020-01-11T16:49:52.667-06:00
   initializedAtString: 2020-01-11T16:34:45.897-06:00
   log:
+  - commitID: cb184500c5f2385710870ccaac549ae53ae0a981
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: support files update
+    description: 
+    timeString: 2020-01-11T16:49:50.000-06:00
+    commitTimeString: 2020-01-11T16:49:50.000-06:00
+    changes:
+    - path: .vs/Paper Airplane/xs/UserPrefs.xml
+      fullPath: /Users/matthew/Paper Airplane/.vs/Paper Airplane/xs/UserPrefs.xml
+      projectPath: .vs/Paper Airplane/xs/UserPrefs.xml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Paper Airplane/xs/project-cache/Assembly-CSharp-Debug.json
+      fullPath: /Users/matthew/Paper Airplane/.vs/Paper Airplane/xs/project-cache/Assembly-CSharp-Debug.json
+      projectPath: .vs/Paper Airplane/xs/project-cache/Assembly-CSharp-Debug.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Paper Airplane/xs/sqlite3/storage.ide
+      fullPath: /Users/matthew/Paper Airplane/.vs/Paper Airplane/xs/sqlite3/storage.ide
+      projectPath: .vs/Paper Airplane/xs/sqlite3/storage.ide
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: .vs/Paper Airplane/xs/sqlite3/storage.ide-shm
+      fullPath: /Users/matthew/Paper Airplane/.vs/Paper Airplane/xs/sqlite3/storage.ide-shm
+      projectPath: .vs/Paper Airplane/xs/sqlite3/storage.ide-shm
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .vs/Paper Airplane/xs/sqlite3/storage.ide-wal
+      fullPath: /Users/matthew/Paper Airplane/.vs/Paper Airplane/xs/sqlite3/storage.ide-wal
+      projectPath: .vs/Paper Airplane/xs/sqlite3/storage.ide-wal
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/CurrentLayout-default.dwlt
+      fullPath: /Users/matthew/Paper Airplane/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/EditorInstance.json
+      fullPath: /Users/matthew/Paper Airplane/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/InspectorExpandedItems.asset
+      fullPath: /Users/matthew/Paper Airplane/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/matthew/Paper Airplane/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      fullPath: /Users/matthew/Paper Airplane/Library/ScriptAssemblies/Assembly-CSharp.pdb
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/Hierarchy/631d19-mainStage.json
+      fullPath: /Users/matthew/Paper Airplane/Library/StateCache/Hierarchy/631d19-mainStage.json
+      projectPath: Library/StateCache/Hierarchy/631d19-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/StateCache/SceneView/aaccbb-mainStage.json
+      fullPath: /Users/matthew/Paper Airplane/Library/StateCache/SceneView/aaccbb-mainStage.json
+      projectPath: Library/StateCache/SceneView/aaccbb-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/assetDatabase3
+      fullPath: /Users/matthew/Paper Airplane/Library/assetDatabase3
+      projectPath: Library/assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/branches.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/matthew/Paper Airplane/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/0b/0bd4bf3d8eef9452e92d6b08ce736a5b
+      fullPath: /Users/matthew/Paper Airplane/Library/metadata/0b/0bd4bf3d8eef9452e92d6b08ce736a5b
+      projectPath: Library/metadata/0b/0bd4bf3d8eef9452e92d6b08ce736a5b
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2
+      fullPath: /Users/matthew/Paper Airplane/Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2
+      projectPath: Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2.info
+      fullPath: /Users/matthew/Paper Airplane/Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2.info
+      projectPath: Library/metadata/2e/2e8dd5648f4e64bb6807e89cd1bbfbb2.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library/metadata/77/77f804fa27ac443bf96f0bc5a16bc689
+      fullPath: /Users/matthew/Paper Airplane/Library/metadata/77/77f804fa27ac443bf96f0bc5a16bc689
+      projectPath: Library/metadata/77/77f804fa27ac443bf96f0bc5a16bc689
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library/metadata/e0/e0592f80210e64a7eb2a55943c7a24d4
+      fullPath: /Users/matthew/Paper Airplane/Library/metadata/e0/e0592f80210e64a7eb2a55943c7a24d4
+      projectPath: Library/metadata/e0/e0592f80210e64a7eb2a55943c7a24d4
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-0a669ec4eb0c2483686640dbcc24b72c
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-0a669ec4eb0c2483686640dbcc24b72c
+      projectPath: Temp/UnityTempFile-0a669ec4eb0c2483686640dbcc24b72c
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-3653bae8e29454baf80d28fadc566fb9
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-3653bae8e29454baf80d28fadc566fb9
+      projectPath: Temp/UnityTempFile-3653bae8e29454baf80d28fadc566fb9
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-366ed33c4d3c849ce890027c9bf200f8
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-366ed33c4d3c849ce890027c9bf200f8
+      projectPath: Temp/UnityTempFile-366ed33c4d3c849ce890027c9bf200f8
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-3991e757d5c144eeeb006995920a6730
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-3991e757d5c144eeeb006995920a6730
+      projectPath: Temp/UnityTempFile-3991e757d5c144eeeb006995920a6730
+      originalPath: Temp/UnityTempFile-1a09cfc70a21e4c20a3b50b8df3d9c79
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4add664a8ae6b460e899ab7fb93d0efc
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-4add664a8ae6b460e899ab7fb93d0efc
+      projectPath: Temp/UnityTempFile-4add664a8ae6b460e899ab7fb93d0efc
+      originalPath: Temp/UnityTempFile-3bf64cd7b278746f0913c14521f16c3c
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-4f66587a0e68646ba99c34a0a320875a
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-4f66587a0e68646ba99c34a0a320875a
+      projectPath: Temp/UnityTempFile-4f66587a0e68646ba99c34a0a320875a
+      originalPath: Temp/UnityTempFile-59ed37827c9324b05b024f9668feac2e
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-5b5b2954a1d7e474b9620b7d2e47ff74
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-5b5b2954a1d7e474b9620b7d2e47ff74
+      projectPath: Temp/UnityTempFile-5b5b2954a1d7e474b9620b7d2e47ff74
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-a8f811bde80614eb98e6eed44acdf9e4
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-a8f811bde80614eb98e6eed44acdf9e4
+      projectPath: Temp/UnityTempFile-a8f811bde80614eb98e6eed44acdf9e4
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-ba0f65fee9be441c1b0713cefe0c8ab7
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-ba0f65fee9be441c1b0713cefe0c8ab7
+      projectPath: Temp/UnityTempFile-ba0f65fee9be441c1b0713cefe0c8ab7
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-c49173f27bb0c4bd1870be5894921674
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-c49173f27bb0c4bd1870be5894921674
+      projectPath: Temp/UnityTempFile-c49173f27bb0c4bd1870be5894921674
+      originalPath: Temp/UnityTempFile-9ecb1385168af475bb3b39acc3dba97a
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Temp/UnityTempFile-cd1627d09c91944a4a5712ef57d26509
+      fullPath: /Users/matthew/Paper Airplane/Temp/UnityTempFile-cd1627d09c91944a4a5712ef57d26509
+      projectPath: Temp/UnityTempFile-cd1627d09c91944a4a5712ef57d26509
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Temp/__Backupscenes/0.backup
+      fullPath: /Users/matthew/Paper Airplane/Temp/__Backupscenes/0.backup
+      projectPath: Temp/__Backupscenes/0.backup
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: /Users/matthew/Paper Airplane/obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: /Users/matthew/Paper Airplane/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 2f687ec0805561f85c148a5b67633871a27fdc07
     mergeA: 
     mergeB: 
