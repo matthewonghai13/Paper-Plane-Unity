@@ -1,31 +1,17 @@
 ﻿<Properties StartupConfiguration="{66FCFB8B-AE8E-6EE4-5549-30E5051D4D04}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Plane.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameOverWindow.cs">
     <Files>
       <File FileName="Assets/Scripts/GameAssets.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameHandler.cs" />
-      <File FileName="Assets/Scripts/GameOverWindow.cs" />
-      <File FileName="Assets/Scripts/Level.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameOverWindow.cs" Line="34" Column="20" />
+      <File FileName="Assets/Scripts/Level.cs" />
       <File FileName="Assets/Scripts/MainCamera.cs" />
-      <File FileName="Assets/Scripts/Plane.cs" Line="33" Column="43" />
-      <File FileName="Assets/Scripts/RestartController.cs" Line="6" Column="33" />
+      <File FileName="Assets/Scripts/Plane.cs" />
+      <File FileName="Assets/Scripts/ScoreWindow.cs" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Paper Airplane" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Plane.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5e58b61b-1801-43b6-988d-3a23521d9b31" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="140e9591-8400-42c9-be1a-faeeb432c7c9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

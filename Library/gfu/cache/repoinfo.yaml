@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-01-11T00:25:27.821-06:00
-  initializedAtString: 2020-01-11T00:25:27.821-06:00
+  lastUpdatedAtString: 2020-01-11T16:34:46.024-06:00
+  initializedAtString: 2020-01-11T16:34:46.024-06:00
   currentGitRemote:
     name: origin
     url: https://github.com/matthewonghai13/Paper-Plane-Unity.git
