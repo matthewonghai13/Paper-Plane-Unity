@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreWindow : MonoBehaviour{
-
+      
     private Text scoreText;
 
     private void Awake(){

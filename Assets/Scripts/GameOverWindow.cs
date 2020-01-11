@@ -31,17 +31,18 @@ public class GameOverWindow : MonoBehaviour
     }
 
     // called by level when the game is over
+    // TODO: fix hs
     public void DisplayGameOverScreen() {
         int thisScore = Level.GetInstance().getFloorsPassed();
         FinalScoreText.text = thisScore.ToString();
-        //if (!PlayerPrefs.HasKey("hs") || thisScore > PlayerPrefs.GetInt("hs")) {
-        //    // set new hs
-        //    HighScoreText.text = "New High Score: " + thisScore.ToString();
-        //    // save new hs
-        //    PlayerPrefs.SetInt("hs", thisScore);
-        //} else {
-        //    HighScoreText.text = "";
-        //}
+        if (!PlayerPrefs.HasKey("hs") || thisScore > PlayerPrefs.GetInt("hs")) {
+            // set new hs
+            HighScoreText.text = "new hs! ";
+            // save new hs
+            PlayerPrefs.SetInt("hs", thisScore);
+        } else {
+            HighScoreText.text = "";
+        }
         Debug.Log("game over!");
         Show();
     }
