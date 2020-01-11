@@ -76,6 +76,15 @@ public class Level : MonoBehaviour {
             HandleWallMovement();
             HandleWallSpawning();
         }
+
+        // speed difficulty (find a better way to do this)
+        if (floorsPassed >= 20 && floorsPassed < 50) {
+            Time.timeScale = 1.2f;
+        } else if (floorsPassed >= 50 && floorsPassed < 100) {
+            Time.timeScale = 1.5f;
+        } else if (floorsPassed > 100) {
+            Time.timeScale = 2f;
+        }
     }
 
     public int getFloorsSpawned() {
