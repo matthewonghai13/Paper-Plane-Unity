@@ -23,14 +23,14 @@ public class Level : MonoBehaviour {
     private const float GAP_LEFT_LIMIT = -35f;
     private const float GAP_RIGHT_LIMIT = 15f;
 
-    private const float FLOOR_SPAWN_YPOS = -75f;
+    private const float FLOOR_SPAWN_YPOS = -75.15f;
     private const float FLOOR_DESTROY_YPOS = 75f;
     
 
     private const float WALL_SPAWN_YPOS = -89.5f;
     private const float WALL_DESTROY_YPOS = 85f; 
    
-    private const float CLOUD_SPAWN_XPOS = 100f;
+    private const float CLOUD_SPAWN_XPOS = 110f;
     private const float CLOUD_DESTROY_XPOS = -100f;
 
     private const float PLANE_YPOS = 0f;
