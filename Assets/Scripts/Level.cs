@@ -150,7 +150,7 @@ public class Level : MonoBehaviour {
     private void CreateWall() {
         Transform wall = Instantiate(GameAssets.GetInstance().pfbgBrick);
         if(floorsSpawned % 2 == 0) {
-            wall.localScale = new Vector3(-15, 15, 0);
+            wall.localScale = new Vector3(0 - wall.localScale.x, wall.localScale.y, 0);
         }
         wall.position = new Vector3(0, WALL_SPAWN_YPOS);
         wallList.Add(wall);
@@ -223,5 +223,20 @@ public class Level : MonoBehaviour {
         // TODO: Fix this
         state = State.GameOver;
         GameOverWindow.GetInstance().DisplayGameOverScreen();
+        StartCoroutine(FadeOut(GameAssets.GetInstance().music, 4f));
     }
+
+
+    public static IEnumerator FadeOut(AudioSource audioSource, float FadeTime) {
+        float startVolume = audioSource.volume;
+
+        while (audioSource.volume > 0) {
+            audioSource.volume -= startVolume * Time.deltaTime / FadeTime;
+            yield return null;
+        }
+        audioSource.Stop();
+        audioSource.volume = startVolume;
+    }
+
+
 }
