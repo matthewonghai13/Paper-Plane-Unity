@@ -24,14 +24,7 @@ public class Plane : MonoBehaviour
 
     // Update is called once per frame
     private void Update(){
-        if(planeBody.position.x < -50 || planeBody.position.x > 50) {
-            planeBody.velocity = new Vector2(0f, 0f);
-            planeBody.gravityScale = 5f;
-            Level.GetInstance().StopLevel();
-        }
-
         if(Input.GetKeyDown(KeyCode.Space)){
-            GameAssets.GetInstance().whoosh.Play();
             if(planeMoved == false){
                 // special case; no velocity delay needed
                 StartMovement();
@@ -62,7 +55,7 @@ public class Plane : MonoBehaviour
         //planeBody.velocity = new Vector2(-15f, 0);
         //yield return new WaitForSeconds(1);
         planeBody.velocity = new Vector2(MOVE_AMOUNT, 0);
-        planeTransform.localScale = new Vector3(-8, 8, 8); 
+        planeTransform.localScale = new Vector3(-8, 8, 8);
     }
 
     // called when first tap is registered
@@ -76,6 +69,7 @@ public class Plane : MonoBehaviour
         planeBody.velocity = new Vector2(0f, 0f);
         planeBody.gravityScale = 5f;
         Level.GetInstance().StopLevel();
+        Debug.Log("dead!");
     }
 
 }
