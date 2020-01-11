@@ -221,8 +221,8 @@ public class Level : MonoBehaviour {
 
     public void StopLevel() {
         // TODO: Fix this
+        if(state == State.Playing) GameOverWindow.GetInstance().DisplayGameOverScreen();
         state = State.GameOver;
-        GameOverWindow.GetInstance().DisplayGameOverScreen();
         StartCoroutine(FadeOut(GameAssets.GetInstance().music, 4f));
     }
 

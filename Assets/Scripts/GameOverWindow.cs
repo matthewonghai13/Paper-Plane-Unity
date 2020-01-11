@@ -40,10 +40,10 @@ public class GameOverWindow : MonoBehaviour
             HighScoreText.text = "new hs! ";
             // save new hs
             PlayerPrefs.SetInt("hs", thisScore);
+            PlayerPrefs.Save();
         } else {
             HighScoreText.text = "";
         }
-        Debug.Log("game over!");
         Show();
     }
 
