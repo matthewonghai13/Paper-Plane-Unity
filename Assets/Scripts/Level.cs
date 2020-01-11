@@ -61,10 +61,12 @@ public class Level : MonoBehaviour {
     // Start is called before the first frame update
     private void Start() {
         instance = this;
+        GameAssets.GetInstance().wind.Play();
     }
 
     // Update is called once per frame
     void Update() {
+        if (floorsPassed == 1) GameAssets.GetInstance().music.Play();
         HandleCloudMovement();
         HandleCloudSpawning();
 
@@ -188,7 +190,10 @@ public class Level : MonoBehaviour {
             }
         }
 
-        if(passedFloor) floorsPassed++;
+        if (passedFloor) {
+            GameAssets.GetInstance().score.Play();
+            floorsPassed++;
+        }
     }
 
     private void CreateFloor(float gapWidth, float GapLeftPos) {
