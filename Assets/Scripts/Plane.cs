@@ -29,7 +29,7 @@ public class Plane : MonoBehaviour
             planeBody.gravityScale = 5f;
             Level.GetInstance().StopLevel();
         }
-
+        
         if(Input.GetKeyDown(KeyCode.Space)){
             GameAssets.GetInstance().whoosh.Play();
             if(planeMoved == false){

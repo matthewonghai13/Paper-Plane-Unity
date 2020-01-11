@@ -1,0 +1,1674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-01-11T01:31:03.540-06:00
+  initializedAtString: 2020-01-11T00:25:27.800-06:00
+  log:
+  - commitID: 2e9b538d10cf1991f2f19fc561dabdf6c372bed5
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: resetting revert
+    description: 
+    timeString: 2020-01-10T19:35:52.000-06:00
+    commitTimeString: 2020-01-10T19:35:52.000-06:00
+    changes:
+    - path: Assets/Audio.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio.meta
+      projectPath: Assets/Audio.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3
+      projectPath: Assets/Audio/music.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3.meta
+      projectPath: Assets/Audio/music.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3
+      projectPath: Assets/Audio/score.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3.meta
+      projectPath: Assets/Audio/score.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3
+      projectPath: Assets/Audio/whoosh.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3.meta
+      projectPath: Assets/Audio/whoosh.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3
+      projectPath: Assets/Audio/wind.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3.meta
+      projectPath: Assets/Audio/wind.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs
+      projectPath: Assets/Scripts/GameAssets.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameHandler.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameHandler.cs
+      projectPath: Assets/Scripts/GameHandler.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 2c23c0f56f3768a5b411e37121e58fabc636a682
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Revert "Added whoosh, score, wind, and music sounds"
+    description: This reverts commit 148fe83b2003e21073e11d306cccbce99b8e81b4.
+    timeString: 2020-01-10T19:22:43.000-06:00
+    commitTimeString: 2020-01-10T19:22:43.000-06:00
+    changes:
+    - path: Assets/Audio.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio.meta
+      projectPath: Assets/Audio.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3
+      projectPath: Assets/Audio/music.mp3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3.meta
+      projectPath: Assets/Audio/music.mp3.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3
+      projectPath: Assets/Audio/score.mp3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3.meta
+      projectPath: Assets/Audio/score.mp3.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3
+      projectPath: Assets/Audio/whoosh.mp3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3.meta
+      projectPath: Assets/Audio/whoosh.mp3.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3
+      projectPath: Assets/Audio/wind.mp3
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3.meta
+      projectPath: Assets/Audio/wind.mp3.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs
+      projectPath: Assets/Scripts/GameAssets.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameHandler.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameHandler.cs
+      projectPath: Assets/Scripts/GameHandler.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 82edd42047b3a9d20349eba76a1e7010caf4d53a
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: added shades of brick walls
+    description: 
+    timeString: 2020-01-10T18:54:04.000-06:00
+    commitTimeString: 2020-01-10T18:54:04.000-06:00
+    changes:
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_dark.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_dark.png
+      projectPath: Assets/Textures/bgBrickHole_dark.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_dark.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_dark.png.meta
+      projectPath: Assets/Textures/bgBrickHole_dark.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_med.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_med.png
+      projectPath: Assets/Textures/bgBrickHole_med.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_med.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_med.png.meta
+      projectPath: Assets/Textures/bgBrickHole_med.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 90c3032732c6c8f3c908bdb0c8f0accd332be1be
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: tweaked camera jitter
+    description: 
+    timeString: 2020-01-10T18:07:02.000-06:00
+    commitTimeString: 2020-01-10T18:07:02.000-06:00
+    changes:
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs
+      projectPath: Assets/Scripts/GameOverWindow.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/MainCamera.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/MainCamera.cs
+      projectPath: Assets/Scripts/MainCamera.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/ScoreWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/ScoreWindow.cs
+      projectPath: Assets/Scripts/ScoreWindow.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png
+      projectPath: Assets/Textures/bgBrickHole.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png.meta
+      projectPath: Assets/Textures/bgBrickHole.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_lowRes.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_lowRes.png
+      projectPath: Assets/Textures/bgBrickHole_lowRes.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole_lowRes.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole_lowRes.png.meta
+      projectPath: Assets/Textures/bgBrickHole_lowRes.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/GraphicsSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/GraphicsSettings.asset
+      projectPath: ProjectSettings/GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings/TimeManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/TimeManager.asset
+      projectPath: ProjectSettings/TimeManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 308e33dc1755947454c1cd626780a4aaace753e0
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Made camera responsive (pixel perfect disabled)
+    description: 
+    timeString: 2020-01-09T19:40:29.000-06:00
+    commitTimeString: 2020-01-09T19:40:29.000-06:00
+    changes:
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/MainCamera.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/MainCamera.cs
+      projectPath: Assets/Scripts/MainCamera.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/MainCamera.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/MainCamera.cs.meta
+      projectPath: Assets/Scripts/MainCamera.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 148fe83b2003e21073e11d306cccbce99b8e81b4
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Added whoosh, score, wind, and music sounds
+    description: 
+    timeString: 2020-01-07T21:03:24.000-06:00
+    commitTimeString: 2020-01-07T21:03:24.000-06:00
+    changes:
+    - path: Assets/Audio.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio.meta
+      projectPath: Assets/Audio.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3
+      projectPath: Assets/Audio/music.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/music.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/music.mp3.meta
+      projectPath: Assets/Audio/music.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3
+      projectPath: Assets/Audio/score.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/score.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/score.mp3.meta
+      projectPath: Assets/Audio/score.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3
+      projectPath: Assets/Audio/whoosh.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/whoosh.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/whoosh.mp3.meta
+      projectPath: Assets/Audio/whoosh.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3
+      projectPath: Assets/Audio/wind.mp3
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Audio/wind.mp3.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Audio/wind.mp3.meta
+      projectPath: Assets/Audio/wind.mp3.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs
+      projectPath: Assets/Scripts/GameAssets.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameHandler.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameHandler.cs
+      projectPath: Assets/Scripts/GameHandler.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: ad58b488188d905baa40afebf204a4645102c9b6
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: added moving cloud functionality
+    description: 
+    timeString: 2020-01-06T20:07:39.000-06:00
+    commitTimeString: 2020-01-06T20:07:39.000-06:00
+    changes:
+    - path: Assets/Prefabs/WhiteCloud1.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/WhiteCloud1.prefab
+      projectPath: Assets/Prefabs/WhiteCloud1.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/WhiteCloud1.prefab.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/WhiteCloud1.prefab.meta
+      projectPath: Assets/Prefabs/WhiteCloud1.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs
+      projectPath: Assets/Scripts/GameAssets.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/plane2.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/plane2.png
+      projectPath: Assets/Textures/plane2.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/whitecloud1.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/whitecloud1.png
+      projectPath: Assets/Textures/whitecloud1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/whitecloud1.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/whitecloud1.png.meta
+      projectPath: Assets/Textures/whitecloud1.png.meta
+      originalPath: Assets/Textures/plane2.png.meta
+      indexStatus: 6
+      workTreeStatus: 0
+  - commitID: df035bf041d1fe4b5936f3c736ee59cb84224c05
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: bg reset
+    description: 
+    timeString: 2020-01-06T19:15:11.000-06:00
+    commitTimeString: 2020-01-06T19:15:11.000-06:00
+    changes:
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/background.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/background.png
+      projectPath: Assets/Textures/background.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/background.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/background.png.meta
+      projectPath: Assets/Textures/background.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png
+      projectPath: Assets/Textures/bg.png
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png.meta
+      projectPath: Assets/Textures/bg.png.meta
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: c173338b7afabb1a3acd337ce19732c846b1f842
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Revert "Revert "Added game over and basic menu functionality""
+    description: This reverts commit dd8e4ea36270409b5853a8f74a5c7fdd00823eaf.
+    timeString: 2020-01-01T23:07:29.000-06:00
+    commitTimeString: 2020-01-01T23:07:29.000-06:00
+    changes:
+    - path: Assets/Fonts.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts.meta
+      projectPath: Assets/Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf
+      projectPath: Assets/Fonts/karma.future.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf.meta
+      projectPath: Assets/Fonts/karma.future.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs
+      projectPath: Assets/Scripts/GameOverWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs.meta
+      projectPath: Assets/Scripts/GameOverWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png
+      projectPath: Assets/Textures/bg.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png.meta
+      projectPath: Assets/Textures/bg.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png
+      projectPath: Assets/Textures/bgBrickHole.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png.meta
+      projectPath: Assets/Textures/bgBrickHole.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: dd8e4ea36270409b5853a8f74a5c7fdd00823eaf
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Revert "Added game over and basic menu functionality"
+    description: This reverts commit b7d962154c5e2c3cf6691fd11b50ab7a297468da.
+    timeString: 2020-01-01T23:06:37.000-06:00
+    commitTimeString: 2020-01-01T23:06:37.000-06:00
+    changes:
+    - path: Assets/Fonts.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts.meta
+      projectPath: Assets/Fonts.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf
+      projectPath: Assets/Fonts/karma.future.ttf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf.meta
+      projectPath: Assets/Fonts/karma.future.ttf.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs
+      projectPath: Assets/Scripts/GameOverWindow.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs.meta
+      projectPath: Assets/Scripts/GameOverWindow.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png
+      projectPath: Assets/Textures/bg.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png.meta
+      projectPath: Assets/Textures/bg.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png
+      projectPath: Assets/Textures/bgBrickHole.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png.meta
+      projectPath: Assets/Textures/bgBrickHole.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: b7d962154c5e2c3cf6691fd11b50ab7a297468da
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Added game over and basic menu functionality
+    description: 
+    timeString: 2020-01-01T21:18:05.000-06:00
+    commitTimeString: 2020-01-01T21:18:05.000-06:00
+    changes:
+    - path: Assets/Fonts.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts.meta
+      projectPath: Assets/Fonts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      projectPath: Assets/Fonts/3D-Thirteen-Pixel-Fonts.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf
+      projectPath: Assets/Fonts/karma.future.ttf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Fonts/karma.future.ttf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Fonts/karma.future.ttf.meta
+      projectPath: Assets/Fonts/karma.future.ttf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs
+      projectPath: Assets/Scripts/GameOverWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameOverWindow.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameOverWindow.cs.meta
+      projectPath: Assets/Scripts/GameOverWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png
+      projectPath: Assets/Textures/bg.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bg.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bg.png.meta
+      projectPath: Assets/Textures/bg.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png
+      projectPath: Assets/Textures/bgBrickHole.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrickHole.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrickHole.png.meta
+      projectPath: Assets/Textures/bgBrickHole.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 4a7b215f60e1ab6983f2ae4b0d89604adac91a3f
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Fixed hitbox bug
+    description: 
+    timeString: 2020-01-01T00:58:18.000-06:00
+    commitTimeString: 2020-01-01T00:58:18.000-06:00
+    changes:
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 7f47292ac58fae726cf7019c0a4b73b95c84e545
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: gameplay and camera tweaks
+    description: 
+    timeString: 2020-01-01T00:44:48.000-06:00
+    commitTimeString: 2020-01-01T00:44:48.000-06:00
+    changes:
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Packages/manifest.json
+      fullPath: /Users/matthew/Paper Airplane/Packages/manifest.json
+      projectPath: Packages/manifest.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 27c8ebf0572dae16f28f321883859e11058c0bfe
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: added scoreboard counting
+    description: 
+    timeString: 2019-12-31T23:46:54.000-06:00
+    commitTimeString: 2019-12-31T23:46:54.000-06:00
+    changes:
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets/Scripts/ScoreWindow.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/ScoreWindow.cs
+      projectPath: Assets/Scripts/ScoreWindow.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/ScoreWindow.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/ScoreWindow.cs.meta
+      projectPath: Assets/Scripts/ScoreWindow.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 36584df22b7425894088ec4a52cf3f4d82465c0f
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: initial commit
+    description: 
+    timeString: 2019-12-31T23:10:34.000-06:00
+    commitTimeString: 2019-12-31T23:10:34.000-06:00
+    changes:
+    - path: Assets/Plugins.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins.meta
+      projectPath: Assets/Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub.meta
+      projectPath: Assets/Plugins/GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor.meta
+      projectPath: Assets/Plugins/GitHub/Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      projectPath: Assets/Plugins/GitHub/Editor/QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/System.Threading.dll
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      projectPath: Assets/Plugins/GitHub/Editor/UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      projectPath: Assets/Plugins/GitHub/Editor/big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/credits.txt
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/credits.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/eula.txt
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/eula.txt.meta
+      projectPath: Assets/Plugins/GitHub/Editor/eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/libsfw.bundle
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/libsfw.so
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      projectPath: Assets/Plugins/GitHub/Editor/libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/sfw.net.dll
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x64.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x64.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x64/sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x86.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x86.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      projectPath: Assets/Plugins/GitHub/Editor/x86/sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs.meta
+      projectPath: Assets/Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab
+      projectPath: Assets/Prefabs/pfBrick.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfBrick.prefab.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfBrick.prefab.meta
+      projectPath: Assets/Prefabs/pfBrick.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab
+      projectPath: Assets/Prefabs/pfbgBrick.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Prefabs/pfbgBrick.prefab.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Prefabs/pfbgBrick.prefab.meta
+      projectPath: Assets/Prefabs/pfbgBrick.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scenes.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes.meta
+      projectPath: Assets/Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity
+      projectPath: Assets/Scenes/GameScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scenes/GameScene.unity.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scenes/GameScene.unity.meta
+      projectPath: Assets/Scenes/GameScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts.meta
+      projectPath: Assets/Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs
+      projectPath: Assets/Scripts/GameAssets.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameAssets.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameAssets.cs.meta
+      projectPath: Assets/Scripts/GameAssets.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameHandler.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameHandler.cs
+      projectPath: Assets/Scripts/GameHandler.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/GameHandler.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/GameHandler.cs.meta
+      projectPath: Assets/Scripts/GameHandler.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs
+      projectPath: Assets/Scripts/Level.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Level.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Level.cs.meta
+      projectPath: Assets/Scripts/Level.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs
+      projectPath: Assets/Scripts/Plane.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Scripts/Plane.cs.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Scripts/Plane.cs.meta
+      projectPath: Assets/Scripts/Plane.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures.meta
+      projectPath: Assets/Textures.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/background.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/background.png
+      projectPath: Assets/Textures/background.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/background.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/background.png.meta
+      projectPath: Assets/Textures/background.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrick.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrick.png
+      projectPath: Assets/Textures/bgBrick.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/bgBrick.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/bgBrick.png.meta
+      projectPath: Assets/Textures/bgBrick.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/brick.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/brick.png
+      projectPath: Assets/Textures/brick.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/brick.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/brick.png.meta
+      projectPath: Assets/Textures/brick.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/plane1.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/plane1.png
+      projectPath: Assets/Textures/plane1.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/plane1.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/plane1.png.meta
+      projectPath: Assets/Textures/plane1.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/plane2.png
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/plane2.png
+      projectPath: Assets/Textures/plane2.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Textures/plane2.png.meta
+      fullPath: /Users/matthew/Paper Airplane/Assets/Textures/plane2.png.meta
+      projectPath: Assets/Textures/plane2.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages/manifest.json
+      fullPath: /Users/matthew/Paper Airplane/Packages/manifest.json
+      projectPath: Packages/manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/AudioManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/AudioManager.asset
+      projectPath: ProjectSettings/AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/ClusterInputManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/ClusterInputManager.asset
+      projectPath: ProjectSettings/ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/DynamicsManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/DynamicsManager.asset
+      projectPath: ProjectSettings/DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/EditorBuildSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/EditorBuildSettings.asset
+      projectPath: ProjectSettings/EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/EditorSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/EditorSettings.asset
+      projectPath: ProjectSettings/EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/GraphicsSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/GraphicsSettings.asset
+      projectPath: ProjectSettings/GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/InputManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/InputManager.asset
+      projectPath: ProjectSettings/InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/NavMeshAreas.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/NavMeshAreas.asset
+      projectPath: ProjectSettings/NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/NetworkManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/NetworkManager.asset
+      projectPath: ProjectSettings/NetworkManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/Physics2DSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/Physics2DSettings.asset
+      projectPath: ProjectSettings/Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/PresetManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/PresetManager.asset
+      projectPath: ProjectSettings/PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/ProjectSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/ProjectSettings.asset
+      projectPath: ProjectSettings/ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/ProjectVersion.txt
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/ProjectVersion.txt
+      projectPath: ProjectSettings/ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/QualitySettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/QualitySettings.asset
+      projectPath: ProjectSettings/QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/TagManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/TagManager.asset
+      projectPath: ProjectSettings/TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/TimeManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/TimeManager.asset
+      projectPath: ProjectSettings/TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/UnityConnectSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/UnityConnectSettings.asset
+      projectPath: ProjectSettings/UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/VFXManager.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/VFXManager.asset
+      projectPath: ProjectSettings/VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings/XRSettings.asset
+      fullPath: /Users/matthew/Paper Airplane/ProjectSettings/XRSettings.asset
+      projectPath: ProjectSettings/XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 1bf1a5be034f3647b0e1cf2c11bee703f86fc75f
+    mergeA: 
+    mergeB: 
+    authorName: Matthew Onghai
+    authorEmail: matthewonghai@utexas.edu
+    commitEmail: matthewonghai@utexas.edu
+    commitName: Matthew Onghai
+    summary: Initial commit
+    description: 
+    timeString: 2019-12-31T23:07:04.000-06:00
+    commitTimeString: 2019-12-31T23:07:04.000-06:00
+    changes:
+    - path: .gitattributes
+      fullPath: /Users/matthew/Paper Airplane/.gitattributes
+      projectPath: .gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: /Users/matthew/Paper Airplane/.gitignore
+      projectPath: .gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/.gitignore
+      fullPath: /Users/matthew/Paper Airplane/Assets/.gitignore
+      projectPath: Assets/.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0

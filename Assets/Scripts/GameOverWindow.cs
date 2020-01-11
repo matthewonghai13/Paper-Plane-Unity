@@ -25,7 +25,8 @@ public class GameOverWindow : MonoBehaviour
     }
 
     // handles calling back to level
-    private void RestartLevel() {
+    public void RestartLevel() {
+        Debug.Log("restart level!");
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
     }
 
@@ -33,14 +34,15 @@ public class GameOverWindow : MonoBehaviour
     public void DisplayGameOverScreen() {
         int thisScore = Level.GetInstance().getFloorsPassed();
         FinalScoreText.text = thisScore.ToString();
-        if (!PlayerPrefs.HasKey("hs") || thisScore > PlayerPrefs.GetInt("hs")) {
-            // set new hs
-            HighScoreText.text = "New High Score: " + thisScore.ToString();
-            // save new hs
-            PlayerPrefs.SetInt("hs", thisScore);
-        } else {
-            HighScoreText.text = "";
-        }
+        //if (!PlayerPrefs.HasKey("hs") || thisScore > PlayerPrefs.GetInt("hs")) {
+        //    // set new hs
+        //    HighScoreText.text = "New High Score: " + thisScore.ToString();
+        //    // save new hs
+        //    PlayerPrefs.SetInt("hs", thisScore);
+        //} else {
+        //    HighScoreText.text = "";
+        //}
+        Debug.Log("game over!");
         Show();
     }
 
