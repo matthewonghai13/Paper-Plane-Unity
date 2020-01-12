@@ -5,5 +5,7 @@ using UnityEngine;
 public class GameHandler : MonoBehaviour
 {
     private void Start() {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = 30;
     }
 }

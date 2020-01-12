@@ -37,7 +37,7 @@ public class GameOverWindow : MonoBehaviour
         FinalScoreText.text = thisScore.ToString();
         if (!PlayerPrefs.HasKey("hs") || thisScore > PlayerPrefs.GetInt("hs")) {
             // set new hs
-            HighScoreText.text = "new hs! ";
+            HighScoreText.text = "New High Score! ";
             // save new hs
             PlayerPrefs.SetInt("hs", thisScore);
             PlayerPrefs.Save();

@@ -16,9 +16,9 @@ public class ScoreWindow : MonoBehaviour{
     private void Update(){
         scoreText.text = Level.GetInstance().getFloorsPassed().ToString();
         if(PlayerPrefs.HasKey("hs")) {
-            currentHighScoreText.text = "Current High Score: " + PlayerPrefs.GetInt("hs").ToString();
+            currentHighScoreText.text = "High Score: " + PlayerPrefs.GetInt("hs").ToString();
         } else {
-            currentHighScoreText.text = "Current High Score: 0";
+            currentHighScoreText.text = "High Score: 0";
         }
         
     }

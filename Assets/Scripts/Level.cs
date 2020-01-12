@@ -3,9 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Level : MonoBehaviour {
+    private const float FLOOR_MOVE_SPEED = 8f;
+    private const float CLOUD_MOVE_SPEED = 3f;
+    private const float GAP_WIDTH_EASY = 25f;
+    private const float GAP_WIDTH_MEDIUM = 20f;
+    private const float GAP_WIDTH_HARD = 18f;
+    private const float GAP_LEFT_LIMIT = -35f;
+    private const float GAP_RIGHT_LIMIT = 15f;
+    private const float FLOOR_SPAWN_YPOS = -75.15f;
+    private const float FLOOR_DESTROY_YPOS = 75f;
+    private const float WALL_SPAWN_YPOS = -89.5f;
+    private const float WALL_DESTROY_YPOS = 85f; 
+    private const float CLOUD_SPAWN_XPOS = 110f;
+    private const float CLOUD_DESTROY_XPOS = -120f;
+    private const float PLANE_YPOS = 0f;
+
     public List<Transform> floorList;
     public List<Transform> wallList;
     public List<Transform> cloudList;
+    private static Level instance;
     private float floorSpawnTimer;
     private float floorSpawnTimerMax;
     private float wallSpawnTimer;
@@ -14,27 +30,6 @@ public class Level : MonoBehaviour {
     private float cloudSpawnTimerMax;
     private int floorsSpawned;
     private int floorsPassed;
-
-    private const float FLOOR_MOVE_SPEED = 8f;
-    private const float CLOUD_MOVE_SPEED = 3f;
-    private const float GAP_WIDTH_EASY = 25f;
-    private const float GAP_WIDTH_MEDIUM = 20f;
-    private const float GAP_WIDTH_HARD = 18f;
-    private const float GAP_LEFT_LIMIT = -35f;
-    private const float GAP_RIGHT_LIMIT = 15f;
-
-    private const float FLOOR_SPAWN_YPOS = -75.15f;
-    private const float FLOOR_DESTROY_YPOS = 75f;
-    
-
-    private const float WALL_SPAWN_YPOS = -89.5f;
-    private const float WALL_DESTROY_YPOS = 85f; 
-   
-    private const float CLOUD_SPAWN_XPOS = 110f;
-    private const float CLOUD_DESTROY_XPOS = -100f;
-
-    private const float PLANE_YPOS = 0f;
-    private static Level instance;
     private State state;
 
     private enum State {
@@ -49,8 +44,8 @@ public class Level : MonoBehaviour {
 
     private void Awake() {
         floorList = new List<Transform>();
-        //wallList = new List<Transform>();
-        //cloudList = new List<Transform>();          // ??
+        wallList = new List<Transform>();
+        cloudList = new List<Transform>();
         floorSpawnTimerMax = 3f;
         wallSpawnTimerMax = 3f;
         cloudSpawnTimerMax = 25f;
