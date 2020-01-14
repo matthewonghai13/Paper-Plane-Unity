@@ -57,6 +57,7 @@ public class Level : MonoBehaviour {
     private void Start() {
         instance = this;
         GameAssets.GetInstance().wind.Play();
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
